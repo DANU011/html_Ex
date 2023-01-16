@@ -1,0 +1,134 @@
+<!DOCTYPE html>                        
+<html lang="en">                       
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4장 자기소개</title>   
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--내부 스타일 지정-->
+        <style>
+            form {
+                height: auto;
+            }
+            #survey{
+                padding: 10px;
+                margin: 10px;
+                width: 800px;
+                height: auto;
+            }
+            
+            .box1 h2{
+                font-size: 2em;
+                line-height: 0.9em;
+
+            }
+
+            .box2{
+                height: auto;
+
+            }
+
+            fieldset {
+                margin: 15px;
+                height: auto;
+            }
+
+            ul{
+                list-style: none;
+            }
+
+            li {
+                margin: 20px;
+            }
+
+            li label{
+                width: 80px;
+                float: left;
+                font-size: 0.8em;
+            }
+            label img {
+                width: 15%;
+                margin-left: 5px;
+                margin-right: 40px;
+            }
+
+            #btm{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body> 
+       <header>
+        <!--사진영역-->
+        <div>
+            <img src="img/photo.PNG" width="90">
+        </div>
+
+        <!--제목 이름 영역-->
+        <div>
+            <br><h1>KIM DANU</h1><br><br>
+            <p>WELCOME</p>
+        </div>
+        
+       </header>
+
+       <!--메뉴영역 - 네비게이션 영역-->
+       <nav>
+        
+        <a href="index.html">[개인정보]</a>&nbsp;&nbsp;&nbsp;
+        <a href="index.html.#s2">[학력사항]</a>&nbsp;&nbsp;&nbsp;
+        <a href="index.html.#s3">[자격사항]</a>&nbsp;&nbsp;&nbsp;
+        <a href="index.html.#s4">[자기소개]</a>&nbsp;&nbsp;&nbsp;
+        <a href="servey.html">[설문조사]</a>&nbsp;&nbsp;&nbsp;
+    </nav>
+        <!--설문 영역-->
+        <section id="servey">
+            <form name="myform" method="get" action="">
+                <!-- 제목 영역-->
+                <div class="box1">
+                    <h2> 당신이 좋아하는 과일을 선택해 보세요. </h2>
+                </div>
+                <!-- 설문 입력 영역-->
+                <div class="box2">
+                    <!-- 개인정보 -->
+                    <fieldset>
+                        <legend>개인정보</legend>
+                        <ul>
+                            <li>
+                                <label for="user_name">성명</label>
+                                <input type="text" name="user_name" id="user_name" placeholder="id를 입력 하세요"
+                            </li>
+                            <li>
+                                <label for="user_name">비밀번호</label>
+                                <input type="text" name="password" id="password" placeholder="pw를 입력 하세요"
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <!-- 과일 선택 -->
+                    <!-- 개인정보 -->
+                    <fieldset>
+                        <legend>개인정보</legend>
+                        <ul>
+                            <li>
+                                <label for="user_name">성명</label>
+                                <input type="text" name="user_name" id="user_name" placeholder="id를 입력 하세요"
+                            </li>
+                            <li>
+                                <label for="user_name">비밀번호</label>
+                                <input type="text" name="password" id="password" placeholder="pw를 입력 하세요"
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+            </form>
+        </section>
+
+       <!--꼬리말 영역-->  
+       <footer>
+        <p>&copy; KIM DANU </p>
+    </footer>
+
+    </body>
+</html>                                
